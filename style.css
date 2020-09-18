@@ -130,7 +130,8 @@ body{
 }
 
 .feedback{
-	padding-left: 15em;
+	padding-left: 5em;
+	padding-right: 5em;
 	padding-top: 10em;
 	padding-bottom: 10em;
 }
