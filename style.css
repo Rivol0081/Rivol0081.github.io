@@ -24,7 +24,7 @@ body{
 }
 .header{
 	background-image: url(https://www.ixbt.com/img/n1/news/2019/5/3/chrome-73-mode-sombre-android_large.jpg);
-	height: 50rem;
+	height: 55em;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
@@ -88,6 +88,7 @@ body{
 	color: white;
 }
 .flip-card {
+	height: 18em;
 	background-color: transparent;
 	perspective: 1000px; 
 }
@@ -130,8 +131,10 @@ body{
 }
 
 .feedback{
+	padding-left: 7em;
 	padding-top: 10em;
 	padding-bottom: 10em;
+	padding-right: 7em;
 }
 .des{
 }
@@ -148,20 +151,24 @@ input{
 }
 .w{
 	background-color: #333 !important;
-	width: 100em;
-	margin-left: 9em;
 }
 .loool{
-	background: #1E1E1E;
+
 }
 .semi-footer{
 	color: white;
 	font-style: oblique;
-	padding-left:20em;
+	margin: 0;
+	padding-left: 12em;
+	padding-right: 12em
 }
 .footer{
 	min-height: 100vl;
 	color:#808080;
+	margin: 0;
+	padding-bottom: 5em;
+	padding-left: 10em;
+	padding-right: 10em
 }
 .ul{
 	position: relative;
