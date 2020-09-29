@@ -1,0 +1,239 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	justify-content: center;
+	align-items: center;
+	background-color: #222;
+}
+.navbar{
+	background: #708090;
+}
+.navbar-brend{
+	color: gray;
+}
+.nav-link{
+	color: black;
+}
+.nav-link:hover{
+	color: black;
+}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+.header{
+	background-image: url(https://www.ixbt.com/img/n1/news/2019/5/3/chrome-73-mode-sombre-android_large.jpg);
+	height: 55em;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	min-width: 100%;
+	min-height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(169, 169, 169, 0.4);
+}
+.description{
+	position: absolute;
+	top: 10%;
+	margin: auto;
+	padding: 10em;
+}
+.h_1{
+	color: #343a40!important;
+}
+.fish{
+	margin: auto;
+	padding: 4em;
+	background-color: #333 !important;
+	color: white;
+}
+.img-fluid{
+	height: 250px;
+}
+.portfolio img{
+	margin: 2em;
+	color: gray;
+}
+.portfolio h1{
+	margin: 2em;
+}
+.portfolio{
+	margin: 3 em;
+}
+.img-rounded{
+	border-radius: 30%;
+}
+.news h2{
+	color: white;
+	margin: 2em;
+}
+.news{
+	margin: auto;
+	padding: 4em;
+	background-color: #333 !important;
+}
+.card{
+	border: 1px solid #343a40;
+	margin-top: 1em;
+	height: 41em;
+}
+.news .card{
+	box-shadow: 0 0 0 green; 
+}
+.team{
+	color: white;
+}
+.flip-card {
+	height: 18em;
+	background-color: transparent;
+	perspective: 1000px; 
+}
+
+.flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 1.5s;
+	transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden; 
+	backface-visibility: hidden;
+}
+
+.flip-card-front {
+	background-color: #222;
+	color: white;
+}
+
+.flip-card-back {
+	padding-top: 25%;
+	background-color: dodgerblue;
+	color: white;
+	transform: rotateY(180deg);
+}
+.lol{
+	margin-bottom: 3em;
+	margin-top: 3em;
+}
+
+.feedback{
+	padding-left: 7em;
+	padding-top: 10em;
+	padding-bottom: 10em;
+	padding-right: 7em;
+}
+.des{
+}
+input{
+}
+.q{
+	background-color: #4169E1;
+	color: white;
+}
+.word{
+	color: #FDF5E6;
+	padding-top: 10em;
+	
+}
+.w{
+	background-color: #333 !important;
+}
+.loool{
+
+}
+.semi-footer{
+	color: white;
+	font-style: oblique;
+	margin: 0;
+	padding-left: 12em;
+	padding-right: 12em
+}
+.footer{
+	min-height: 100vl;
+	color:#808080;
+	margin: 0;
+	padding-bottom: 5em;
+	padding-left: 10em;
+	padding-right: 10em
+}
+.ul{
+	position: relative;
+	display: flex;
+	transform-style: preserve-3d;
+}
+ul li{
+	position: relative;
+	list-style: none;
+	width: 40px;
+	height: 40px;
+	margin: 0 10px;
+}
+ul li span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	background: #333;
+	color: rgba(255,255,255,0.2);
+	font-size: 30px !important;
+}
+ul li:hover span{
+	z-index: 1000;
+	transition: 0.5s;
+	color: #fff;
+	box-shadow: -1px 1px 1px rgba(0,0,0,0.05);
+}
+ul li:hover span:nth-child(4){
+	transform: translate(30px,-30px);
+	opacity: 0.8;
+}
+ul li:hover span:nth-child(3){
+	transform: translate(20px,-20px);
+	opacity: 0.6;
+}
+ul li:hover span:nth-child(2){
+	transform: translate(10px,-10px);
+	opacity: 0.4;
+}
+ul li:hover span:nth-child(1){
+	transform: translate(0px,-0px);
+	opacity: 0.2;
+}
+ul li:nth-child(1):hover span
+{
+	background: #3b5999;
+}
+ul li:nth-child(2):hover span
+{
+	background: #55acee;
+}
+ul li:nth-child(3):hover span
+{
+	background: #3b5999;
+}
+ul li:nth-child(4):hover span
+{
+	background: #e4405f;
+}
+h9{
+	margin: 0;
+	padding: 0;
+}
